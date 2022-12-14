@@ -20,7 +20,7 @@ doel: functionele buttons met een value counter
 	--HTML aanroepen met .getElementbyId (geef alles een id!)
 		
 	-alles wat een waarde moet hebben een waarde geven
-	--definieer de minimum value
+	--definieer en de minimum value
 	--- definieer de maximum value
 	----definieer number !(later nodig om als reverentie te nemen voor de if-statements)!
 	
@@ -33,20 +33,21 @@ doel: functionele buttons met een value counter
            numberPlace.!!innerText!! = number ; /// Display the value in 
 		   
 	--doe hetzelfde voor de plus button maar dan met: if( number<max)
-	--- GEBRUIK ==.innerHTML== om vanuit javascript HTML aan te spreken zodat de waarde in innerhtml wordt weergegeven.
+	--- GEBRUIK .innerHTML om vanuit javascript HTML aan te spreken zodat de waarde in innerhtml wordt weergegeven.
 
 4.ervoor zorgen dat de waarde wordt weergegeven in de value counter
 
-	-voorbeeld code: numberPlace.innerText = number ; /// Display the value in place of the number
+	-voorbeeld code: numberPlace.!!innerText!! = number ; /// Display the value in place of the number
 	-- GEBRUIK .innerHTML om vanuit javascript HTML aan te spreken zodat de waarde in innerhtml wordt weergegeven.
 	
 5. maak een reset button
 	-DOE HIER ZO NODIG RESEARCH VOOR
 	-- voorbeeld om het te maken:
 		resetBtn.onclick = function(){
-			number= 0
+			if(number>0){
+				number = 0;
+				valueCounter.innerHTML = number;
 			}
-		
 		}
-	--- kan mogelijk niet werken> doe research/stel vragen
+	
 */

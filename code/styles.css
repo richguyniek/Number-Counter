@@ -1,0 +1,52 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    background-color:rgba(88, 128, 165, 0.904) ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container2{
+    width: 200px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.counter-buttons{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    background-color:white ;
+}
+
+#reset{
+    width: 75px;
+}
