@@ -5,7 +5,7 @@ window.onload=function(){
         reset    = document.getElementById    ("reset"),
 
         number = 0,
-        min= 0,
+        min= -99,
         max= 99;
     console.log(plusBtn);
     
@@ -16,7 +16,7 @@ window.onload=function(){
         
         
         // TESTING purposes
-        console.log("plusbtn onclick fired - current number : " + number);
+        console.log("plusBtn onclick fired - current number : " + number);
     }
 }
 
@@ -26,7 +26,7 @@ window.onload=function(){
             counter.innerText = number;
             
         //TESTING
-        console.log("minusbtn onclick fired - current number : " + number);
+        console.log("minusBtn onclick fired - current number : " + number);
     }
         }
     
@@ -37,6 +37,22 @@ window.onload=function(){
         //TESTING
         console.log("number reset - current number : " + number);
     }
+
+
+}
+
+window.onload-function(){
+    var result = document.getElementById    (random-number-counter),
+        Btn = document.getElementById    (randomshite),
+
+        number=0;
+     
+   Btn.onclick=function() {
+    number = math.floor(Math.random() * 10),
+    counter.innerText = number;
+   }
+    
+
 
 
 }

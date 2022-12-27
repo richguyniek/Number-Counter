@@ -50,3 +50,15 @@ button{
 #reset{
     width: 75px;
 }
+
+.random-number-generator-container{
+    width: 250px;
+    height: 250px;
+    background-color:rgba(185, 107, 201, 0.904) ;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 75px;
+
+}
