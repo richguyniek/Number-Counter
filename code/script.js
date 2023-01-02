@@ -1,4 +1,18 @@
-window.onload=function(){
+
+window.onload = function(){
+    var result = document.getElementById    ("random-number-counter"),
+    Btn = document.getElementById    ("randomshite"),
+
+    random=0;
+ 
+Btn.onclick=function() {
+random = Math.floor(Math.random() * 11),
+result.innerText = random;
+
+//TESTING
+console.log()
+
+}
     var plusBtn  = document.getElementById    ("plus"),
         minusBtn = document.getElementById    ("min"),
         counter  = document.getElementById    ("value-counter"),
@@ -15,7 +29,7 @@ window.onload=function(){
             counter.innerText = number;
         
         
-        // TESTING purposes
+        // TESTING 
         console.log("plusBtn onclick fired - current number : " + number);
     }
 }
@@ -30,7 +44,7 @@ window.onload=function(){
     }
         }
     
-    reset.onclick =function (){
+    reset.onclick = function (){
         number=0
         counter.innerText = number;
 
@@ -41,19 +55,5 @@ window.onload=function(){
 
 }
 
-window.onload-function(){
-    var result = document.getElementById    (random-number-counter),
-        Btn = document.getElementById    (randomshite),
 
-        number=0;
-     
-   Btn.onclick=function() {
-    number = math.floor(Math.random() * 10),
-    counter.innerText = number;
-   }
-    
-
-
-
-}
 
